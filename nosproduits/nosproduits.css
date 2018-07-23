@@ -1,0 +1,46 @@
+body {
+	background-color: black;
+}
+
+
+html {
+	font-family: Cinzel;
+	color: #FB8B0E;
+}
+
+
+/* Add a black background color to the top navigation */
+.navbaraccueil {
+   
+    
+    overflow: hidden;
+    width: 100% ;
+    
+    
+}
+
+/* Style the links inside the navigation bar */
+.navbaraccueil a {
+	border-radius: 20px;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbaraccueil a:hover {
+    height: -15px;
+    
+    border-radius: 20px;
+	border-top: 4px solid #A4A4A4;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.navbaraccueil a.active {
+    background-color: #C0C0C0;
+    color: white;
+}
